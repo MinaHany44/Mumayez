@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    height: 2000px;
+    background-color: rgba(25, 10, 80, 0.808);
+}
+html{
+    scroll-behavior: smooth;
+}
+.dark-mode {
+    background-color: black;
+   
+  }
+/* logo */
+.logo-box{
+    background-color: rgb(25, 139, 139);
+    text-align: center;
+}
+.logo-box img{
+    width: 120px;
+   
+}
+/* image */
+.image-box{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    
+}
+.image-box img{
+    width: 90%;
+    height: 100%;
+    box-shadow: 0px 2px 5px white;
+}
+/* language box*/
+.language-box{
+    margin: 10px;
+    height: 100px;
+}
+.language-box{
+display: flex;
+justify-content: space-around;
+
+}
+.language-box a {
+    text-decoration: none;
+    font-size: 40px;
+background-color: rgb(58, 80, 16);
+border-radius: 10px;
+padding: 8px;
+color: white;
+height:50px ;
+}
+/* language section */
+.arabic-sec{
+
+    height: 600px;
+
+}
+.text-box{
+    margin-top: 50px ;
+    margin-bottom: 20px;
+    height: fit-content;
+    display: flex;
+align-items: center;
+justify-content: right;
+}
+.text-box h2{
+    margin-right: 20px; 
+    font-size: 50px;
+}
+.prof-box{
+    height: 70%;
+    display: flex;
+   justify-content: end;
+    
+}
+.prof-table{
+    height: 80%;
+    width: 30%;
+    margin-left:50px;
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+.prof-table .prof-name{
+    height: 10%;
+    margin-right:50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.prof-name input[type='radio']{
+   transform: scale(1.5);
+ margin-left: 20px;
+}
+.prof-name span{
+   font-size:40px;
+    margin-bottom: 5px;
+}
+.prof-box .prof-table img {
+    width: 90%;
+    margin: 20px ;
+    margin-right: 40px;
+}
+/* DM buttom */
+.DM{
+   position: fixed;
+   bottom: 10px;
+   left: 10px;
+   background-color: black;
+   border: none;
+   padding: 8px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 7px white;
+}
